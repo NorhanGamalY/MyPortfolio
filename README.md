@@ -12,7 +12,6 @@ This project showcases my work, skills, and experience in a clean and modern sin
 - Vite (bundler + dev server)  
 - JavaScript, HTML, CSS  
 - ESLint for code quality  
-- (Any specific libraries/frameworks you used – update here)  
 
 ## Getting Started
 
