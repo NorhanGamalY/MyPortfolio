@@ -84,7 +84,7 @@ export default function Home() {
       />
     </div>
       
-      <a className=' relative z-10 text-2xl border-[#17A6DF] border-2 bg-pink text-white px-8 py-3 rounded-3xl mt-4 hover:bg-purple-500  hover:scale-110 hover:border-none transition-all duration-300' href="./Norhan-Gamal-Resume.pdf" download>Resume <Download className='inline' size={20} /></a> 
+      <a className=' relative z-10 text-2xl border-[#17A6DF] border-2 bg-pink text-white px-8 py-3 rounded-3xl mt-4 hover:bg-purple-500  hover:scale-110 hover:border-none transition-all duration-300' href="./Norhan-Gamal.pdf" download>Resume <Download className='inline' size={20} /></a> 
     </div>
   </section>
         <About id="about"></About>
