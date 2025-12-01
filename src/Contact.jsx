@@ -71,7 +71,7 @@ export default function Contact({id}) {
   return (
     <>
     <section id="contact">
-    <div className="container min-h-screen mx-auto py-10 text-center text-white">
+    <div className="container min-h-screen mx-auto py-1 md:py-5 text-center text-white">
      <div className="my-5 pt-10 pb-5">
         <h1 className="text-4xl font-bold bg-linear-to-r from-purple-500  to-red-500 bg-clip-text text-transparent pb-3">Let's Work Together</h1>
       </div>

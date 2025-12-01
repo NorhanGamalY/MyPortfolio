@@ -61,7 +61,7 @@ const maxrate = Math.max(...skillsData.map((d) => d.rate));
   return (
     <>
     <section id={id}>
-    <div className="container min-h-screen mx-auto py-10 text-center text-white" id={id}>
+    <div className="container min-h-screen mx-auto py-1 md:py-5 text-center text-white" id={id}>
         <div className="my-5 py-10">
         <h1 className="text-4xl font-bold bg-linear-to-r from-green-200 to-green-600 bg-clip-text text-transparent">
             Skills & Expertise

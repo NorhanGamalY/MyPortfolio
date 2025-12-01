@@ -21,7 +21,7 @@ const imageLogos = [
   return (
     <>
     <section id="about">
-    <div className="container min-h-screen mx-auto py-5 text-center text-white" id={id}>
+    <div className="container min-h-screen mx-auto py-1 md:py-5  text-center text-white" id={id}>
         <div className="my-5 py-5">
         <h3 className="text-4xl font-bold text-4xl font-bold bg-linear-to-r from-blue-200 to-blue-600 bg-clip-text text-transparent">About Me</h3>
         <div className="flex justify-center mt-5 gap-4">

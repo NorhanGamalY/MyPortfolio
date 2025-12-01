@@ -36,7 +36,7 @@ export default function Home() {
     <>
   <section id="home">
     <div className=" min-h-screen oveerlow-hidden flex justify-center flex-col items-center ">
-    <nav className="relative md:top-0 md:fixed z-10 w-[90%] mx-auto flex justify-between items-center py-2 md:py-7 bg-opacity-95">
+    <nav className="relative md:top-0 md:fixed z-10 w-[90%] mx-auto flex justify-between items-center py-1 md:py-7 bg-opacity-95">
       <a href="#home"  className="text-2xl font-bold bg-linear-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
         &lt; NorhaN /&gt;
       </a>

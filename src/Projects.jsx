@@ -55,7 +55,7 @@ const Projects = ({id}) => {
   return (
     <>
     <section id={id}>
-      <div className="container min-h-screen mx-auto py-10 text-center text-white" >
+      <div className="container min-h-screen mx-auto py-1 md:py-5 text-center text-white" >
       <div className="my-5 pt-10">
         <h1 className="text-4xl font-bold bg-linear-to-r from-amber-200 to-amber-600 bg-clip-text text-transparent pb-3">Featured Projects</h1>
         <p>A collection of my recent work and personal projects</p>
