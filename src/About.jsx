@@ -2,7 +2,9 @@ import React from 'react'
 import { Code, Palette, Zap, Github, Linkedin, Mail, ExternalLink, ChevronDown, Menu, X } from 'lucide-react';
 import LogoLoop from './LogoLoop';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
-export default function About() {
+
+
+export default function About({id}) {
   const techLogos = [
   { node: <SiReact />, title: "React", href: "https://react.dev" },
   { node: <SiNextdotjs />, title: "Next.js", href: "https://nextjs.org" },
@@ -18,26 +20,22 @@ const imageLogos = [
 
   return (
     <>
-    <div className="container min-h-screen mx-auto py-5 text-center text-white">
+    <section id="about">
+    <div className="container min-h-screen mx-auto py-5 text-center text-white" id={id}>
         <div className="my-5 py-5">
-        <h3 className="text-4xl font-bold bg-linear-to-r from-purple-500 to-[#17A6DF] bg-clip-text text-transparent">About Me</h3>
+        <h3 className="text-4xl font-bold text-4xl font-bold bg-linear-to-r from-blue-200 to-blue-600 bg-clip-text text-transparent">About Me</h3>
         <div className="flex justify-center mt-5 gap-4">
-
   <a href="https://github.com/NorhanGamalY" className="p-3 bg-gray-800 rounded-full hover:bg-purple-500 transition-all hover:scale-110" target="_blank">
     <Github size={24} />
   </a>
-
   <a href="https://www.linkedin.com/in/norhan-gamal-yousef/" className="p-3 bg-gray-800 rounded-full hover:bg-blue-500 transition-all hover:scale-110" target="_blank">
     <Linkedin size={24} />
-  </a>
-  
+  </a> 
   <a href="mailto:norha25gamal@gmail.com" className="p-3 bg-gray-800 rounded-full hover:bg-red-500 transition-all hover:scale-110">
     <Mail size={24} />
   </a>
 </div>
-
         </div>
-
         <div className="container mx-auto p-5 flex flex-col items-center gap-6 md:flex-row md:items-stretch  justify-center ">  
     <div className="w-full md:w-1/3 ">
     <img
@@ -46,10 +44,9 @@ const imageLogos = [
                 alt="personal-Picture"
                 style={{ height: '500px'}}
     />
-        </div>
-    
+        </div>  
     <div className="hidden md:flex md:w-1/6  md:w-1/8 flex-col items-center justify-evenly  bg-transparent">
- <div style={{ height: '500px', position: 'relative', overflow: 'hidden'}}>
+    <div style={{ height: '500px', position: 'relative', overflow: 'hidden'}}>
       <LogoLoop
         logos={techLogos}
         speed={80}
@@ -61,9 +58,8 @@ const imageLogos = [
       />
     </div>
     </div>
-
       <div className="w-[80%] md:hidden flex-col items-center justify-evenly  bg-transparent">
- <div style={{ height: '50px', position: 'relative', overflow: 'hidden'}}>
+      <div style={{ height: '50px', position: 'relative', overflow: 'hidden'}}>
       <LogoLoop
         logos={techLogos}
         speed={80}
@@ -73,16 +69,13 @@ const imageLogos = [
         hoverSpeed={20}
         fadeOut
       />
-    </div>
-    </div>
-
-<div className="w-[80%] md:w-1/3 p-5 flex flex-col items-center justify-center bg-[#111827]" style={{ height: '500px' }}>
-    <p className='text-start text-xl'> 
+      </div>
+      </div>
+      <div className="w-[80%] md:w-1/3 p-5 flex flex-col items-center justify-center bg-[#111827]" style={{ height: '500px' }}>
+      <p className='text-start text-xl'> 
       I'm a Front-End Developer, my primary toolkit centers around React and Next.js, where I leverage their powerful ecosystems to build everything from single-page applications to full-stack solutions with server-side rendering and static site generation.
-    </p>
-
+      </p>
       <div className='my-5 flex flex-wrap justify-between gap-2'>
-
         <div className='rounded-xl w-[48%] font-bold bg-[#242430] mb-1 p-3 hover:bg-[#22D3EE] transition-all hover:scale-110'>
                 <span className='text-[#C084FC]'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
@@ -110,13 +103,11 @@ const imageLogos = [
                 <span>Responsive</span>       
         </div> 
               
-               </div>
-
-
+      </div>
     </div>
-
         </div>
       </div>
+      </section>
     </>
   );
 }

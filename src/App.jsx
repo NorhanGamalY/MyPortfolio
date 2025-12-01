@@ -31,9 +31,7 @@ useEffect(() => {
 />
 
 
-    <Home/>
-    <About></About>
-      
+    <Home id="home" />      
     </>
   )
 }
