@@ -15,8 +15,8 @@ const Projects = ({id}) => {
       description: "User interface using Angular for a Pet Store that includes product viewing, adding, and updating functionalities.",
       techStack: ["Angular.js", "Tailwind CSS"],
       img: "pet.png",
-      demoLink: "https://fresh-cart-ivory-nine.vercel.app/",
-      codeLink: "https://github.com/NorhanGamalY/Fresh-Cart"
+      demoLink: "https://pet-store-suug.vercel.app/home",
+      codeLink: "https://github.com/NorhanGamalY/PetStore"
     },
     {
       title: "Queue Management",
