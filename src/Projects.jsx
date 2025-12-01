@@ -15,7 +15,7 @@ const Projects = ({id}) => {
       description: "User interface using Angular for a Pet Store that includes product viewing, adding, and updating functionalities.",
       techStack: ["Angular.js", "Tailwind CSS"],
       img: "pet.png",
-      demoLink: "https://pet-store-suug.vercel.app/home",
+      demoLink: "https://petstore3nms.netlify.app/shop",
       codeLink: "https://github.com/NorhanGamalY/PetStore"
     },
     {
